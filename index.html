@@ -4,8 +4,193 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Blank Chronicle 2nd Prototype Hub</title>
+    <!--
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    -->
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/59fa72ef1b.js" crossorigin="anonymous"></script>
+
+    <!--
+    <link rel="icon" href="/favicon.ico">
+    -->
+
+    <!-- Meta -->
+    <meta name="description" content="blah">
+    <meta name="format-detection" content="telephone=no">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:site" content="@blank_chronicle">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="blah"><!-- book article website -->
+    <meta property="og:site_name" content="Blank Chronicle">
+    <meta property="og:title" content="blah">
+    <meta property="og:description" content="blah">
+    <meta property="og:url" content="blah">
+    <meta property="og:image" content="blah">
+    <meta property="og:image:width" content="blah">
+    <meta property="og:image:height" content="blah">
+    <meta property="og:image:alt" content="blah">
+
+    <!-- og:article -->
+    <meta property="article:published_time" content="datetime">
+    <meta property="article:modified_time" content="datetime">
+    <meta property="article:author" content="blah">
+
+    <!-- og:book -->
+    <meta property="book:author" content="blah">
+    <meta property="book:isbn" content="blah">
+    <meta property="book:release_date" content="datetime">
+
 </head>
-<body>
-    <h1>Blank Chronicle 2nd Prototypes</h1>
+<body class="controller-name content-name">
+    
+<a href="#content" class="screen-reader-text skip-link">Skip to content</a>
+
+<header id="site-header">
+
+    <button class="site-menu-button" aria-expanded="false" aria-controls="site-menu" aria-label="Open main menu">
+        <i class="fa-solid fa-bars"></i>
+    </button>
+
+    <a href="/" class="brand">Blank Chronicle</a>
+
+    <div id="site-menu">
+
+        <nav id="site-navigation">
+            <ul class="site-navigation-list">
+                <li><a href="/sound-horizon" class="site-menu-link">Sound Horizon</a></li>
+                <li><a href="/linked-horizon" class="site-menu-link">Linked Horizon</a></li>
+                <li><a href="/revo" class="site-menu-link">Revo</a></li>
+            </ul>
+        </nav>
+
+        <!-- Dark/Light mode -->
+        <!-- php check checked -->
+        <!--
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider"></span>
+        </label>
+        -->
+    </div>
+
+    <div id="site-search">
+        <form>
+            <label class="screen-reader-text">Search</label>
+            <input type="text" placeholder="Search">
+            <button type="submit">Search</button>
+        </form>
+    </div>
+
+    <div id="language-select">
+        <select class="language-select">
+            <option>EN</option>
+            <option>RO</option>
+            <option>JP</option>
+        </select>
+    </div>
+
+</header>
+
+<main id="content">
+
+    <div class="article typography">
+        <h1 class="article-title">Blank Chronicle 2nd Prototypes</h1>
+        <p>These prototypes are to demonstrate the basic page layouts and information that should be contained on each type of page. Footer links don't work.</p>
+        <nav id="prototype-navigation">
+            <h2>Prototype Selection</h2>
+            <ul class="prototype-list">
+                <li><a href="#" class="prototype-link">Home</a></li>
+                <li><a href="#" class="prototype-link">Album Index</a></li>
+                <li><a href="#" class="prototype-link">Album Single</a></li>
+                <li><a href="#" class="prototype-link">Song Index</a></li>
+                <li><a href="#" class="prototype-link">Song Single</a></li>
+                <li><a href="#" class="prototype-link">Person Index</a></li>
+                <li><a href="#" class="prototype-link">Person Single</a></li>
+                <li><a href="#" class="prototype-link">Character Index</a></li>
+                <li><a href="#" class="prototype-link">Character Single</a></li>
+            </ul>
+        </nav>
+    </div>
+
+</main>
+
+<footer id="site-footer">
+
+    <div id="footer-menu">
+
+        <div class="footer-column">
+            <h2 class="footer-heading">Blank Chronicle</h2>
+            <ul class="footer-socials">
+                <li><a href="https://twitter.com/blank_chronicle" class="footer-social-link"><i class="fa-brands fa-twitter"></i><span class="screen-reader-text">Twitter</span></a></li>
+            </ul>
+            <ul class="footer-navigation-list">
+                <li><a href="/" class="footer-menu-link">Home</a></li>
+                <li><a href="/blog" class="footer-menu-link">Blog</a></li>
+                <li><a href="/about" class="footer-menu-link">About</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h2 class="footer-heading">Sound Horizon</h2>
+            <ul class="footer-socials">
+                <li><a href="https://www.soundhorizon.com/" class="footer-social-link"><i class="fa-brands fa-twitter"></i><span class="screen-reader-text">Official Website</span></a></li>
+                <li><a href="https://twitter.com/S_Horizon_info" class="footer-social-link"><i class="fa-brands fa-twitter"></i><span class="screen-reader-text">Twitter</span></a></li>
+                <li><a href="https://www.facebook.com/slhorizon" class="footer-social-link"><i class="fa-brands fa-facebook"></i><span class="screen-reader-text">Facebook</span></a></li>
+                <li><a href="https://www.youtube.com/channel/UCTtMq_Oy4vF1H_oLzOTfiLw" class="footer-social-link"><i class="fa-brands fa-youtube"></i><span class="screen-reader-text">YouTube</span></a></li>
+            </ul>
+            <ul class="footer-navigation-list">
+                <li><a href="/sound-horizon" class="footer-menu-link">About</a></li>
+                <li><a href="/sound-horizon/discography" class="footer-menu-link">Discography</a></li>
+                <li><a href="/sound-horizon/videography" class="footer-menu-link">Videography</a></li>
+                <li><a href="/sound-horizon/tours" class="footer-menu-link">Tours</a></li>
+                <li><a href="/sound-horizon/events" class="footer-menu-link">Events</a></li>
+                <li><a href="/sound-horizon/members" class="footer-menu-link">Members</a></li>
+                <li><a href="/sound-horizon/characters" class="footer-menu-link">Characters</a></li>
+                <li><a href="/sound-horizon/goods" class="footer-menu-link">Goods</a></li>
+                <li><a href="/sound-horizon/adaptations" class="footer-menu-link">Adaptations</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h2 class="footer-heading">Linked Horizon</h2>
+            <ul class="footer-socials">
+                <li><a href="https://linked-horizon.com/" class="footer-social-link"><i class="fa-brands fa-twitter"></i><span class="screen-reader-text">Official Website</span></a></li>
+                <li><a href="L_Horizon_info" class="footer-social-link"><i class="fa-brands fa-twitter"></i><span class="screen-reader-text">Twitter</span></a></li>
+                <li><a href="https://www.facebook.com/slhorizon" class="footer-social-link"><i class="fa-brands fa-facebook"></i><span class="screen-reader-text">Facebook</span></a></li>
+                <li><a href="https://www.youtube.com/channel/UCSlK33Z154Y_BZWF7QBNRDg" class="footer-social-link"><i class="fa-brands fa-youtube"></i><span class="screen-reader-text">YouTube</span></a></li>
+            </ul>
+            <ul class="footer-navigation-list">
+                <li><a href="/sound-horizon" class="footer-menu-link">About</a></li>
+                <li><a href="/sound-horizon/discography" class="footer-menu-link">Discography</a></li>
+                <li><a href="/sound-horizon/videography" class="footer-menu-link">Videography</a></li>
+                <li><a href="/sound-horizon/tours" class="footer-menu-link">Tours</a></li>
+                <li><a href="/sound-horizon/events" class="footer-menu-link">Events</a></li>
+                <li><a href="/sound-horizon/members" class="footer-menu-link">Members</a></li>
+                <li><a href="/sound-horizon/goods" class="footer-menu-link">Goods</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h2 class="footer-heading">Revo</h2>
+            <ul class="footer-navigation-list">
+                <li><a href="/sound-horizon" class="footer-menu-link">About</a></li>
+                <li><a href="/sound-horizon/discography" class="footer-menu-link">Discography</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="disclaimer">
+        <p>Blank Chronicle is a hobby project to archive and promote the creative works of Revo, the composer behind Sound Horizon and Linked Horizon. We are not affiliated with Revo, Sound Horizon, Linked Horizon, Bellwood Records, King Records, Pony Canyon, RAP-PRODUCTS, or any of their affiliates.</p>
+    </div>
+
+</footer>
+
+<!-- Scripts -->
+<script src="js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
